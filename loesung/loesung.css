@@ -1,0 +1,45 @@
+.dialog {
+  width: 30rem;
+  border: 1px solid lightgray;
+  box-shadow: 0.25rem 0.25rem 0.5rem darkgray;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dialog .title {
+  background-color: #EFEFEF;
+  border-bottom: 1px solid lightgray;
+
+  font-size: 1rem;
+}
+
+.dialog .title,
+.dialog .content {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.dialog .title,
+.dialog .content,
+.dialog .description,
+.dialog .error-code,
+.dialog p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.dialog .title,
+.dialog .content,
+.dialog .description,
+.dialog .error-code,
+.dialog p {
+  margin: 0;
+}
+
+.dialog .button-box {
+  margin-top: .5rem;
+}
+
+.dialog button {
+  padding: 0.1rem 2rem;
+}

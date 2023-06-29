@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- 
+      Der Code kann eingeklappt werden, um die Lesbarkeit zu erhöhen.
+      <head>, <header> und <footer> können eingeklappt werden.
+    -->
+    <title>CSS-Basics</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- 
+      Default Style vom Browser deaktivieren. 
+      Gleiches Aussehen auf allen Betriebssystemen und Browsern herstellen.
+    -->
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+    <!-- 
+      Styles für die Navigationsleiste und die Aufgabenstellungen
+     -->
+    <link rel="stylesheet" href="../assets/common.css" />
+    <link rel="stylesheet" href="../assets/header.css" />
+    <!-- 
+      Styles die diese Aufgabe
+     -->
+    <link rel="stylesheet" href="loesung.css" />
+    <!--
+      CSS Styles müssen nicht in eine eigene Datei geschrieben werden. 
+      Für die meisten Anwendungsfälle sollte aber eine eigene Datei genutzt werden. 
+     -->
+    <style></style>
+  </head>
+  <body role="uebung">
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Aufgabenstellung</a>
+          </li>
+          <li><a href="/uebung.html">Übung</a></li>
+          <li>
+            <a class="active" href="/loesung.html">Lösung</a>
+          </li>          
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- HIER GEHT DIE ÜBUNG LOS -->
+      <aside role="modal-dialog" class="dialog">
+        
+        <h3 class="title">Fehler</h3>
+
+        <div class="content">
+          <div class="description">
+            <p>
+              Es ist wahrscheinlich ein sehr kritischer <u>unbekannter Fehler</u> aufgetreten. 
+              Die Aktion konnte nicht ausgeführt werden.
+            </p>
+            <code class="error-code">Technischer Fehlercode: INCREDIBLY_CRITICAL_BUT_UNKNOWN_ERROR</code>
+          </div>
+
+          <div class="button-box">
+            <button type="button">OK</button>
+          </div>
+        </div>
+
+      </aside>
+
+    </main>
+  </body>
+</html>

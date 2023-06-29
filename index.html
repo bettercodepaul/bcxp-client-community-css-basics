@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- 
+      Der Code kann eingeklappt werden, um die Lesbarkeit zu erhöhen.
+      <head>, <header> und <footer> können eingeklappt werden.
+    -->
+    <title>CSS-Basics</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- 
+      Default Style vom Browser deaktivieren. 
+      Gleiches Aussehen auf allen Betriebssystemen und Browsern herstellen.
+    -->
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+    <!-- 
+      Styles für die Navigationsleiste und die Aufgabenstellungen
+     -->
+    <link rel="stylesheet" href="assets/common.css" />
+    <link rel="stylesheet" href="assets/header.css" />
+    <!--
+      CSS Styles müssen nicht in eine eigene Datei geschrieben werden. 
+      Für die meisten Anwendungsfälle sollte aber eine eigene Datei genutzt werden. 
+     -->
+    <style></style>
+  </head>
+  <body role="aufgabenstellung">
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a class="active" href="/">Aufgabenstellung</a>
+          </li>
+          <li><a href="/uebung.html">Übung</a></li>
+          <li>
+            <a href="/loesung/loesung.html">Lösung</a>
+          </li>          
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>BCxP Client Community - CSS Basics Hands-On</h1>
+
+        <p>
+          Lernziele dieser Hands-On Session:
+          <ol>
+            <li>Die Lernenden verstehen das CSS Box Model.</li>
+            <li>Den Lernenden ist der Unterschied zwischen Block und Inline Elementen klar.</li>
+            <li>Den Lernenden ist der Unterschied zwischen intrinsic und extrinsic sizing bekannt.</li>
+          </ol>
+        </p>
+      </section>
+
+      <section>
+        <h2>Aufgabenstellung</h2>
+        <p>
+          Paul ist ein junger Software-Entwickler bei BCxP und bittet euch bei seiner Userstory zum Thema "Fehlerdialog" um Hilfe.<br/>
+          Bei der Umsetzung der Anforderungen ist etwas schief gelaufen. Bitte helft Paul.
+        <p>
+        
+        <h3>Userstory-0815: Fehlerdialog</h3>
+        <p>
+          Als Benutzer des Clients möchte ich im Fehlerfall einen Modal-Dialog angezeigt bekommen, der mir eine menschenlesbare Fehlermeldung anzeigt.<br/>
+        </p>
+        <p>
+          Der Fehlerdialog besteht aus einem Titel mit dem Inhalt "Fehler", einer Beschreibung mit der menschenlesbaren Fehlermeldung und <br/>
+          für einen besseren Support außerdem der technische Fehlercode, sowie einem "OK"-Button zum Schließen des Dialogs.
+        </p>
+        <p>
+          <strong>Akzeptanzkriterien:</strong>
+        </p>
+
+        <ol>
+          <li>Die Schriftart ist Arial mit der Schriftgröße 16px.</li>
+          <li>Der Dialog ist 480px breit.</li>
+          <li>Der technische Fehlercode soll mit einer Monospace Schriftart abgehoben werden.</li>
+          <li>Der Fehlerdialog soll folgendem Mockup genügen:
+            <img src="./assets/CSS-Basics.png" />
+          </li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>

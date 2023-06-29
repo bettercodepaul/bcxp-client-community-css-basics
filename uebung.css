@@ -1,0 +1,5 @@
+.dialog {
+  /* TODO [PAUL]: Schick muss es jemand anderes machen */
+  width: 300px;
+  border: 1px solid lightgray;
+}
