@@ -8,8 +8,4 @@ Lernziele dieser Hands-On Session:
 
 ## Aufgabenstellung, Übung und Lösung
 
-Öffne https://bettercodepaul.github.io/bcxp-client-community-css-basics/ 
-
-## Online IDE
-
-Öffne https://stackblitz.com/edit/bcxp-client-community-css-basics?file=uebung.html&hideDevTools=1
+Öffne [BCxP Client Community - CSS-Basics](https://stackblitz.com/edit/bcxp-client-community-css-basics?embed=1&file=index.html&hideDevTools=1&hideExplorer=1&hideNavigation=1&view=preview) auf Stackblitz
